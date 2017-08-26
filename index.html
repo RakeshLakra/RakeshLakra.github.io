@@ -9,8 +9,11 @@
     <meta name="author" content="Rakesh Larka">
 	 
 	<link rel="icon" type="png/x-ico" href="https://rakeshlakra.github.io/favicon.ico">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+     crossorigin="anonymous">
 	<title>Rakesh Lakra</title>
 	<style>
 		#start {
@@ -77,6 +80,11 @@
 			color: blue;
 			font-size: 20px;
 		}
+		hr{
+			border-top: 1px solid #8c8b8b;
+			border-bottom: 1px solid #fff;
+			width:60%;
+		}
 	</style>
 
 </head>
@@ -93,11 +101,14 @@
 	</div>
 </header>
 
-<h1 id="start"> Welcome to my website!</h1>
+	<div id="start">
+		<h1> Welcome to my website!</h1>
+		<hr>
+	</div> 
 
 <!--Overview-->
 <div id="div1">
-<h2><a name="About">About me</a></h2>
+<h2><a id="About">About me</a></h2>
 	<img src="#" alt=""><br>
 	<b>Name:</b> Rakesh Lakra <br>
 	<b>Present Address:</b> III- Allahabad <br>
@@ -141,7 +152,7 @@
 
 			<!--Timeline-->
 		<div>
-			<h3><a name="Timeline">Timeline</a></h3>
+			<h3><a id="Timeline">Timeline</a></h3>
 				<ul>
 					<li>1996: Born in March 28 at <a href="http://www.ehausa.org/hospitals_navjivan.html" style="text-decoration: none;" target= "_blank"> Nav Jivan Hospital</a> Tumagara Satbarwa Palamu Jharkhand.</li>
 					<li>2001-2003 : Children's Paradise School, Latehar   -   Nursery to LKG</li>
@@ -154,17 +165,23 @@
 </div>
 
 
-<footer>
-	<p>Version 1.1<p>
-	<h3><a name="Contact">Contact</a></h3>
-	<p><b><a href="mailto:shadowrakeshlakra@gmail.com" style="text-decoration: none;" target= "_blank">E-mail: shadowrakeshlakra@gmail.com</a></p>
-	<p><a href="tel: +91-9155955844" style="text-decoration: none;">Mobile: +91-9155955844</a><b><br>
-	<br>
-	<a href="https://www.facebook.com/rakesh.lakra.583" class="fa fa-facebook"></a>
-	&nbsp
-		<a href="tel: +91-9155955844" class="fa fa-phone-square"></a><br>
-		<a href="https://github.com/RakeshLakra" class="fa fa-github" style="text-decoration: none;"></a>
-	</p>
-</footer>
+	<footer>
+		<p>Version 1.1<p>
+		<h3><a id="Contact">Contact</a></h3>
+		<p><b><a href="mailto:shadowrakeshlakra@gmail.com" style="text-decoration: none;" target= "_blank">E-mail: shadowrakeshlakra@gmail.com</a></p>
+		<p><a href="tel: +91-9155955844" style="text-decoration: none;">Mobile: +91-9155955844</a><b><br>
+		<br>
+		<a href="https://www.facebook.com/rakesh.lakra.583" class="fa fa-facebook"></a>
+		&nbsp
+			<a href="tel: +91-9155955844" class="fa fa-phone-square"></a><br>
+			<a href="https://github.com/RakeshLakra" class="fa fa-github" style="text-decoration: none;"></a>
+		</p>
+	</footer>
+	<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+     <script src="jQuery.js"></script>
+
 </body>
 </html>
